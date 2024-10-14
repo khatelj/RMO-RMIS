@@ -96,6 +96,13 @@ td{
 }
 
 
+table th, table td {
+    white-space: nowrap; 
+    overflow: hidden;
+}
+table td {
+    min-width: 100px; 
+}
 
 #name{
     font-family: "Poppins";

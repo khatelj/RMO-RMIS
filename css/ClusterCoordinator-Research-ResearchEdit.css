@@ -4,7 +4,6 @@
     align-items: center;
     background: #E8E6E6;
 }
-
 #title{
     background: white;
     font-family: "Poppins";
@@ -36,7 +35,7 @@ label, input{
 .form-control{
     border: 1px solid #850000;
 }
-input[type="submit"], input[type="reset"], #modalbtn, input[type="button"]{
+input[type="submit"], input[type="reset"], #modalbtn, input[type="button"], .new{
     background: #850000;
     border-radius: 15px;
     height: 50px;
@@ -49,7 +48,7 @@ input[type="submit"], input[type="reset"], #modalbtn, input[type="button"]{
     box-shadow: 2px 5px 5px rgb(0, 0, 0, 0.10), -2px 5px 5px rgb(0, 0, 0, 0.10);
     transition: ease-in-out .1s
 }
-input[type="submit"]:hover, input[type="reset"]:hover, #modalbtn:hover, input[type="button"]:hover{
+input[type="submit"]:hover, input[type="reset"]:hover, #modalbtn:hover, input[type="button"]:hover, .new:hover{
     background: #560000;
 }
 #dropdownMenuButton{
@@ -68,48 +67,13 @@ input[type="submit"]:hover, input[type="reset"]:hover, #modalbtn:hover, input[ty
     border-radius: 0px 0px 20px 20px;
 }
 
-/*manage*/
-/*director chief cc*/
-#role{
-    font-weight: bold;
-    font-family: "Inter";
-    color: black;
-}
-
-/*tables*/
-#tbl{
-    border-radius: 20px;
-}
-#action{
+.action{
     border: none;
     background: none;
     border-radius: 10px;
     padding: 10px;
+    height: 50px;
 }
-#action:hover{
+.action:hover{
    background: rgb(133, 0, 0, 0.2);
 }
-
-#content{
-    font-family: "Inter";
-    color: black;
-}
-th{
-    font-family: "Montserrat";
-    color: black;
-}
-td{
-    color: black;
-    font-family: "Inter";
-}
-
-
-table th, table td {
-    white-space: nowrap; 
-    overflow: hidden;
-}
-table td {
-    min-width: 100px; 
-}
-
-

@@ -93,27 +93,31 @@
     </div>
 
     <!--table-->
-    <div class="container mt-1 table-responsive">
-        <table class="table bg-white rounded-4 shadow">
-            <tr class="align-middle">
-                <th class="p-4 bg-transparent" scope="row">Rank</th>
-                <th class="p-4 bg-transparent" scope="col">College</th>
-                <th class="p-4 bg-transparent" scope="col">Duration</th>
-                <th class="p-4 bg-transparent" scope="col">Start</th>
-                <th class="p-4 bg-transparent" scope="col">End</th>
-                <th class="p-4 bg-transparent" scope="col">Action</th>
-            </tr>
-            <tr class="align-middle">
-                <td class="col p-4 bg-transparent editable" scope="row">Rank</td>
-                <td class="col p-4 bg-transparent editable" scope="col">College</td>
-                <td class="col p-4 bg-transparent editable" scope="col">1</td>
-                <td class="col p-4 bg-transparent editable" scope="col">2020-01-01</td>
-                <td class="col p-4 bg-transparent editable" scope="col">2020-01-01</td>
-                <td class="p-4 bg-transparent" scope="col">
-                    <button id="action" class="me-2" onclick="toggleEdit(this)"><i class="fa-solid fa-pen-to-square fa-2xl" style="color: #850000;"></i></button>
-                    <button id="action" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-trash fa-2xl" style="color: #850000;"></i></button>
-                </td>
-            </tr>
+    <div class="container bg-white shadow mt-1 table-responsive rounded-4 p-0">
+        <table class="table w-100">
+            <thead class="shadow-sm">
+                <tr class="align-middle">
+                    <th class="p-4 bg-transparent" scope="row">Rank</th>
+                    <th class="p-4 bg-transparent" scope="col">College</th>
+                    <th class="p-4 bg-transparent" scope="col">Duration</th>
+                    <th class="p-4 bg-transparent" scope="col">Start</th>
+                    <th class="p-4 bg-transparent" scope="col">End</th>
+                    <th class="p-4 bg-transparent" scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="align-middle">
+                    <td class="col p-4 bg-transparent editable" scope="row">Rank</td>
+                    <td class="col p-4 bg-transparent editable" scope="col">College</td>
+                    <td class="col p-4 bg-transparent editable" scope="col">1</td>
+                    <td class="col p-4 bg-transparent editable" scope="col">2020-01-01</td>
+                    <td class="col p-4 bg-transparent editable" scope="col">2020-01-01</td>
+                    <td class="p-4 bg-transparent" scope="col">
+                        <button id="action" class="me-2" onclick="toggleEdit(this)"><i class="fa-solid fa-pen-to-square fa-2xl" style="color: #850000;"></i></button>
+                        <button id="action" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-trash fa-2xl" style="color: #850000;"></i></button>
+                    </td>
+                </tr>
+            </tbody>
         </table>
     </div>
 

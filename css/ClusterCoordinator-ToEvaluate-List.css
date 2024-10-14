@@ -68,14 +68,6 @@ input[type="submit"]:hover, input[type="reset"]:hover, #modalbtn:hover, input[ty
     border-radius: 0px 0px 20px 20px;
 }
 
-/*manage*/
-/*director chief cc*/
-#role{
-    font-weight: bold;
-    font-family: "Inter";
-    color: black;
-}
-
 /*tables*/
 #tbl{
     border-radius: 20px;
@@ -103,7 +95,6 @@ td{
     font-family: "Inter";
 }
 
-
 table th, table td {
     white-space: nowrap; 
     overflow: hidden;
@@ -113,3 +104,13 @@ table td {
 }
 
 
+#name{
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+#task{
+    font-weight: bold;
+    font-family: "Inter";
+    color: #850000;
+}
